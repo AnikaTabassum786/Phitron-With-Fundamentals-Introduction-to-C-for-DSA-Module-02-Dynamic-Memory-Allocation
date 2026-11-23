@@ -7,5 +7,8 @@ int main(){
     int *p = new int;// heap memory and stor the added in *p pointer
     *p=100; //dereference, assign digit
     cout << *p << endl;
+
+
+    
     return 0;
 }
