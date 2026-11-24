@@ -11,9 +11,13 @@ int main(){
      cin >> a[i];
     }
 
-    int m = *max_element(a,a+n);
+    int mx= INT_MIN;
 
-   cout << m;
+   for(i=0; i<n;i++){
+      mx = max(a[i],mx);
+    }
+
+   cout << mx;
     
     return 0;
 }
